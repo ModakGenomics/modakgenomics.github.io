@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Modak Genomics
-email: modakanalytics@gmail.com
+email: modakgenomics@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This study helps to develop customized medicines depending on various 
   factors that affect the subject, thereby reducing the risk of side effects
