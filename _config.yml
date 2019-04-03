@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Modak Genomics
-email: your-email@example.com
+email: modakanalytics@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This study helps to develop customized medicines depending on various 
   factors that affect the subject, thereby reducing the risk of side effects
@@ -22,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: modakanalytics
+twitter_username: ModakGenomics
 github_username:  ModakGenomics
 
 # Build settings
@@ -57,7 +57,7 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: modakanalytics
+    twitter: ModakGenomics
     github:  ModakGenomics
     rss: rss
     # dribbble: jekyll
