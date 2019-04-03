@@ -31,6 +31,8 @@ theme: minima
 
 show_excerpts: true
 
+masthead: /assets/Logo-Genomics.png
+
 plugins:
   - jekyll-feed
 
