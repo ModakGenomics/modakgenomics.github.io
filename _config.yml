@@ -16,9 +16,9 @@
 title: Modak Genomics
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Genome wide association study is an approach that involves rapidly scanning markers across complete sets of DNA, or genomes of numerous people to find differences associated to a particular type of disease. Once new differences are identified, then they are analysed by the researchers and cure for those variations are found.
-
-  This study helps to develop customized medicines depending on various factors that affect the subject, thereby reducing the risk of side effects and increasing the effectiveness.
+  This study helps to develop customized medicines depending on various 
+  factors that affect the subject, thereby reducing the risk of side effects
+  and increasing the effectiveness.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
