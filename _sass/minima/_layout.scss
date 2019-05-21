@@ -11,7 +11,7 @@
   position: relative;
 
   background-image: url('../../assets/genomebg.jpg');
-  background-size: cover;
+  background-size: 50% auto;
 }
 
 .site-title {
@@ -69,6 +69,8 @@
   input ~ .trigger {
     clear: both;
     display: none;
+    background: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
   }
 
   input:checked ~ .trigger {
@@ -309,4 +311,5 @@
   padding-bottom: $spacing-unit / 2;
   width: 120px;
   position: absolute;
+  background: rgba(255, 255, 255, 0.5);
 }
