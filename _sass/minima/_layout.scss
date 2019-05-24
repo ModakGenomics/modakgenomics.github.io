@@ -10,8 +10,7 @@
   // Positioning context for the mobile navigation icon
   position: relative;
 
-  background-image: url('../../assets/genomebg.jpg');
-  background-size: 50% auto;
+
 }
 
 .site-title {
@@ -196,7 +195,7 @@
  * Page content
  */
 .page-content {
-  padding: $spacing-unit 0;
+  /* padding: $spacing-unit 0; */
   flex: 1 0 auto;
 }
 
@@ -312,4 +311,25 @@
   width: 120px;
   position: absolute;
   background: rgba(255, 255, 255, 0.5);
+}
+
+.banner_homepage {
+  height: $spacing-unit * 17.165;
+  background-image: url('../../assets/genomebg.jpg');
+  width:     calc(278.1% - 20px) !important;
+  margin-right: -100% !important;
+  margin-left: -100% !important;
+
+  .text-banner {
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        right: 0;
+        top: 25%;
+        left: -40%;
+        background: rgba(255, 255, 255, 0.5);
+        width: 30%;
+        color: black;
+        padding: 10px 10px 10px 10px;
+  }
 }
