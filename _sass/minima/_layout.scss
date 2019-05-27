@@ -4,12 +4,13 @@
 .site-header {
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
-  min-height: $spacing-unit * 1.865;
-  line-height: $base-line-height * $base-font-size * 2.25;
+  min-height: $spacing-unit * 2.165;
+  line-height: $base-line-height * $base-font-size * 2.75;
 
   // Positioning context for the mobile navigation icon
   position: relative;
-  padding-bottom: 10px;
+
+
 }
 
 .site-title {
@@ -67,6 +68,8 @@
   input ~ .trigger {
     clear: both;
     display: none;
+    background: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
   }
 
   input:checked ~ .trigger {
@@ -192,7 +195,7 @@
  * Page content
  */
 .page-content {
-  padding: $spacing-unit 0;
+  /* padding: $spacing-unit 0; */
   flex: 1 0 auto;
 }
 
@@ -307,4 +310,26 @@
   padding-bottom: $spacing-unit / 2;
   width: 120px;
   position: absolute;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.banner_homepage {
+  height: $spacing-unit * 17.165;
+  background-image: url('../../assets/genomebg.jpg');
+  width:     calc(278.1% - 20px) !important;
+  margin-right: -100% !important;
+  margin-left: -100% !important;
+
+  .text-banner {
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        right: 0;
+        top: 25%;
+        left: -40%;
+        background: rgba(255, 255, 255, 0.5);
+        width: 30%;
+        color: black;
+        padding: 10px 10px 10px 10px;
+  }
 }
