@@ -14,9 +14,6 @@ permalink: /
   </div>
 </div>
 
-## Genome Studies
-
-Genome wide association study is an approach that involves rapidly scanning markers across complete sets of DNA or genomes of numerous people to find differences associated to a particular type of disease. Once new differences are identified, they are analysed by the researchers and cure for those variations are found.
 
 ### GWAS (Genome wide association study)
 
